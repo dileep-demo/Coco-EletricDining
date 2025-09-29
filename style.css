@@ -1,0 +1,252 @@
+.main-food{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/main-food.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.matter-btn-border{
+    border: 1px solid #f04c23;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f04c23;
+}
+
+.content-bg{
+    background-color: #16182c;
+}
+
+@media screen and (max-width: 762px){
+    .content-font{
+        font-size: 32px;
+    }
+}
+.our-menu-btn{
+    border: 1px solid #16182c;
+    font-size: 16px;
+    color: #16182c;
+    background-color: white;
+    font-weight: 400;
+}
+
+.dining-img{
+    height: 85vh;
+    width: 100%;
+    background-image: url(./images/eletric-img.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dining-img-content{
+    top: 0;
+    left: 39%;
+    transform: translateY(-39%)
+}
+
+
+
+.footer-sty{
+    color: orangered;
+    font-size: 16px;
+}
+
+.c{
+    border: 1px solid orangered;
+    border-radius: 50%;
+}
+
+.main-button{
+    top: 40%;
+    transform: translateX(50%);
+}
+
+#header1{
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.food-menu{
+    border: 1px solid orangered;
+   color: #fff;
+}
+
+.menu-btn{
+    border: 1px solid;
+    color: orangered;
+    background-color: rgb(4,5,27,0.918);
+     border-radius: 30px 30px 0;
+     border-bottom-left-radius: 0 !important;
+     border-bottom-right-radius: 0 !important;
+}
+
+.menu-btn:hover{
+    color: #f04c23;
+}
+
+.reservation-btn{
+    border: 1px solid #16182c;
+    color: #16182c;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 991px){
+    .large{
+        display: none;
+    }
+    .foo-mar{
+        margin-top: -10px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .smaller{
+        display: none;
+    }
+}
+
+.reservation-button{
+    border: 1px solid #fff;
+    color: #fff;
+    
+}
+
+.font{
+    font-size: 13px;
+}
+
+.position-absolute-center{
+    width: 100%;
+    height: 40vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bottom-img{
+    height: 70vh;
+}
+
+.bottom-img-main{
+    height: 80vh;
+}
+
+.position-absolute-center-main{
+    height: 42vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+   
+}
+
+.family{
+    font-family: 'fraunces',sans-serif !important;
+}
+
+.spoon-img{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/food-img.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coco{
+   /* font-family: Georgia, 'Times New Roman', Times, serif; fruances */
+   font-family: 'fraunces',sans-serif;
+      font-weight: 900 !important;
+      font-size: 120px;
+
+}
+
+
+.our-menu-family{
+    font-family: 'fraunces',sans-serif !important;
+}
+
+.main-ecl {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .gou-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    font-weight: 500;
+  }
+
+  .sec2-font{
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+.content-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #f04c23;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.our-menu-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 1.4;
+}
+
+.number{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #16182c;
+}
+
+@media screen and (min-width: 500px){
+    .coco{
+        font-size: 90px;
+    }
+}
+
+
+
+.our-menu-sub-head{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coco-dining{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.dining-ecl{
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.footer-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.pad{
+    padding-left: 160px;
+}

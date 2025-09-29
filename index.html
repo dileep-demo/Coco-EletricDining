@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    >
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link rel="stylesheet" href="./style.css" >
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sniglet:wght@400;800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container text-center py-1">
+        <h6>Seattles's finest dining experience! <span class="text-danger">Make a Reservation></span> </h6>
+    </div>
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+    </style>
+<!-- section-1  -->
+     <section  id="header1" class="px-5">
+       <div class="container-fluid">
+
+        <div class="row text-end">
+
+          <div class="col-12 col-sm-12 col-md-9  col-lg-9 col-xl-9  p-0 ml-5 pe-5">
+
+            <div class="card border-0 bg-transparent">
+              <div class="card-body ps-1 pt-0 pe-0 text-end mx-auto">
+                <h2 class="card-title text-danger coco pe-5">Coco</h2>
+                <h3 class="text-danger my-4 pe-4 main-ecl"><em>Eclectic Dining</em></h3>
+                <!-- <button class="border-1 bg-transparent rounded-5 py-2 px-4 food-menu mt-2">Food Menu</button> -->
+                <button class="border-1 bg-transparent rounded-5 py-2 px-4 food-menu mt-2 text-danger me-5 text-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Food Menu</button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Food Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body text-start">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Chicken Curries</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Mutton Curries</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Dum Biriyani's</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                 
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-lg-3   mt-4 text-lg-end d-flex justify-content-end align-items-end text-sm-center">
+            <!-- <button class="btn border-0 p-3 text-white menu-btn bg-dark">Menu</button> -->
+            <button class="btn  border-0 p-3  menu-btn  bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body text-start d-flex justify-content-start">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu Items</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Western Dishes</a>
+                  </li>                
+                  <li class="nav-item">
+                    <a class="nav-link">Northen Dishes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+       </div>
+     </section>
+
+    <!-- Section -2 -->
+    <section style="margin: 90px 0;">
+      <div class="container">
+        <div>
+          <p class="mt-5 mb-3 text-center family text-danger gou-font">Gourmet Cuisine</p>
+        </div>
+        <div
+          class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 "
+        >
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-body text-center">
+                    <h4 class="card-title pb-2 sec2-font">Hours</h4>
+                    <p class="card-text">
+                      Tuesday-Sunday <br>
+                      8:00 am - 9:00 pm
+                    </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-body text-center">
+                <h4 class="card-title pb-2 sec2-font">Address</h4>
+                <p class="card-text">6th Ave, Seattle, WA 98121</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-body text-center">
+                <h4 class="card-title pb-2 sec2-font">Contact</h4>
+                <p class="card-text">
+                  hello@coco.io <br>
+                  (123) 456-7890
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button
+            type="button"
+            class="reservation-btn bg-white text-dark px-4 rounded-5 mb-4 mt-3 py-2"
+          >
+            Make a Reservation
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- main-food-img -->
+    <div class="mt-4 position-relative">
+     
+    <img src="./images/first-img.png" class="img-fluid w-100" alt="first-img">
+    </div>
+
+    <!-- Content -->
+    <div class="p-5 content-bg">
+      <div class="container-fluid" >
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5 d-flex align-items-center justify-content-center"
+          >
+          <div class="card border-0" style="width: 38rem;">
+            <div class="card-body p-0 content-bg">
+               <h1 class="card-text family content-font">Coco is daring, sophisticated, eclectic, and warm.</h1>
+               <h1 class="card-text family content-font"> <br>
+                Coco has something for everyone, whether it's melt-in-your-mouth
+                A5 wagyu steak, delectable desserts, or handcrafted cocktails.
+              </h1>
+              <div>
+                <button
+                  type="button"
+                  class="content-bg px-5 py-2 rounded-5 mt-4 matter-btn-border" style="margin-bottom: 60px;"
+                >
+                  Our Story
+                </button>
+              </div>
+            </div>
+           
+          </div>
+          
+          </div>
+        </div>
+        <!-- button -->
+      
+      </div>
+    </div>
+     
+ <!-- Spoon Image -->
+
+    <div class="d-flex align-items-center">
+      <img src="./images/spoon-original-img.png" class="img-fluid w-100"  alt="spoon-img">
+    </div>
+
+    <!-- Our Menu -->
+    <div class="container" id="ourmenu">
+      <div class="my-5">
+        <h1 class="text-danger our-menu-font  our-menu-family " style="font-size: 83px;">Our Menu</h1>
+      </div>
+      <div class="mb-4">
+        <h1 class="our-menu-sub-head fs-1">Favorite Dishes</h1>
+      </div>
+      <!-- Row-1 -->
+      <div class="mb-4">
+        <div
+          class="row"
+        >
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                <h5>BEEF WELLINGTON</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  A classic dish made with filet mignon, pate, and mushrooms,
+                  wrapped in puff pastry and baked to a golden brown.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1  col-xxl-1 text-center pt-2 number">39</div>
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                    <h5>RACK OF LAMB</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  A tender and juicy cut of lamb, seasoned and rosted to
+                  perfection, served with seasonal vegetables and a red wine
+                  reduction.
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1  col-xxl-1  text-center pt-2 number">29</div>
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                    <h5>SEAFOOD PAELLA</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  A tarditional Spanish dish made with saffron-infused-rice,
+                  seafood such as shrimp, clams, and mussels, and an assortment
+                  of vegetables.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1  col-xxl-1 text-center pt-2 number">29</div>
+        </div>
+      </div>
+      <div class="mb-4">
+        <h2 class="our-menu-sub-head fs-1">Popular Drinks</h2>
+      </div>
+      <!-- Row-2 -->
+      <div class="mb-4">
+        <div
+          class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2"
+        >
+          <div class="col-10 col-sm-10  col-md-5 col-lg-5 col-xl-3 col-xxl-3 mx-auto mb-4">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                    <h5>CLASSIC MSRTINI</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">with gin or vodka, vermouth, and olives</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1  col-xxl-1  text-center pt-2 number">16</div>
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 col-xxl-3 mx-auto gx-auto mb-4">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                    <h5>
+                        NEGRONI
+                    </h5>
+                
+               </div>
+              <div class="card-body">
+                <p class="card-text">with gin, vermouth, and Campari</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1  col-xxl-1 text-center pt-2 number">16</div>
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 col-xxl-3">
+            <div class="card mx-auto border-0" style="width: 18rem">
+              <div class="card-header bg-white border-0">
+                    <h5>OLD FASHIONED</h5>
+                </div>
+              <div class="card-body">
+                <p class="card-text">with wishkey, bitters, and sugar</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2  col-md-1 col-lg-1 col-xl-1  col-xxl-1 text-center pt-2 number">16</div>
+        </div>
+      </div>
+
+      <div>
+        <button
+          type="button"
+          class="px-4 py-2 rounded-5 mt-3 our-menu-btn" style="margin-bottom: 80px;"
+        >
+          Full Menu
+        </button>
+      </div>
+    </div>
+
+    <!--Coco Dining Image -->
+    <div class="dining-img  text-center d-flex align-items-center justify-content-center">
+     
+      <div class="card bg-transparent border-0" style="width:18rem;" >
+        <div class="card-body">
+          <h1 class="card-title text-white fw-400 family coco-dining">Coco</h1>
+          <h4 class="card-text my-3 dining-ecl">Electric Dining</h4>
+          <button class="reservation-button bg-transparent py-2 mt-3 px-4 rounded-5 text-white">Make a Reservation</button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+   
+    <div class="container-fluid" style="background-color: rgba(4,5,27,0.920);">
+    <div class="row row-cols-md-3  py-5">
+      <div class="col-12 col-sm-6 col-md-4  col-lg-4   col-xl-4 p-0 my-1">
+        <div class="card border-0 mx-auto" style="background-color: rgba(4,5,27,0.010);width: 15rem;">
+          <div class="card-body  border-0">
+            <h4 class="card-title footer-sty family footer-font" style="font-size: 70px; font-weight: 800;">Coco</h4>
+          </div>
+        
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4  col-lg-4   col-xl-4 p-0 my-1">
+        <div class="card mx-auto border-0" style="background-color: rgba(4, 5, 27, 0.010);  width: 15rem;">
+          <div class="card-body footer-sty border-0">
+            <h4 class="card-title footer-font" style="letter-spacing: 1px;">Contact</h4>
+            <p class="card-text" style="font-size: 14px;">hello@coco.io <br> (123) 456-7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4   col-xl-4  p-0 my-1">
+        <div class="card mx-auto border-0" style="background-color: rgba(4,5,27,0.010);width: 15rem;">
+          <div class="card-body footer-sty border-0">
+            <h4 class="card-title footer-font" style="letter-spacing: 1px;">Hours</h4>
+            <p class="card-text" style="font-size: 14px;">Tuesday - Sunday <br> 8:00 am - 9:00 pm</p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+<!-- for larger screens -->
+    <div class="large">
+    <div class="container mb-5">
+      <h6 class="footer-sty" style="font-size: 14px;">Instagram</h6>
+      <h6 class="footer-sty" style="font-size: 14px;">Facebook</h6>
+  </div>
+  <div class="container pb-2">
+    <div class="d-flex justify-content-between">
+      <p class="font footer-sty">Style Guide  &nbsp; &nbsp; &nbsp; Licensing</p>
+      <i class="fa-light fa-copyright" style="color: orangered;"></i>
+   
+      <p class="font footer-sty"> <i class="fa-regular fa-copyright"></i> &nbsp; 2023 Coco - all right reserved.</p>
+    </div>
+  </div>
+</div>
+
+<!-- for smaller screens -->
+  <div class="smaller">
+    <div class="container mb-5">
+      <div class="d-flex justify-content-between">
+        <div> <h6 class="footer-sty" style="font-size: 14px;">Instagram</h6>
+          <h6 class="footer-sty" style="font-size: 14px;">Facebook</h6> </div>
+      <div>
+        <p class="font footer-sty ps-3">Style Guide  &nbsp; &nbsp; &nbsp; Licensing</p>
+      <i class="fa-light fa-copyright" style="color: orangered;"></i>
+   
+      <p class="font footer-sty foo-mar"> <i class="fa-regular fa-copyright"></i> &nbsp; 2023 Coco - all right reserved.</p>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+  </body>
+</html>
